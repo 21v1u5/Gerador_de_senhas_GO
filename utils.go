@@ -1,7 +1,9 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"os"
 )
 
 func linha() {
@@ -22,4 +24,9 @@ func menu() {
 	fmt.Println("3. Deletar senha")
 	fmt.Println("4. Sair do programa")
 	fmt.Print("Qual é a sua escolha? ")
+}
+
+func limparEntrada() {
+	in := bufio.NewReader(os.Stdin)
+	in.ReadString('\n')
 }
