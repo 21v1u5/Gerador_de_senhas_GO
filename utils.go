@@ -2,18 +2,23 @@ package main
 
 import (
 	"fmt"
-	"strings"
 )
 
 func linha() {
-	num_linhas := strings.Repeat("=", 30)
-	fmt.Println(num_linhas)
+	fmt.Println("=======================================================")
+}
+
+func titulo() {
+	linha()
+	fmt.Println("                 Gerador de senhas                 ")
+	linha()
 }
 
 func menu() {
-	linha()
-	fmt.Println("1. Mostrar senhas")
-	fmt.Println("2. Criar senha")
+	fmt.Print("\n")
+	titulo()
+	fmt.Println("1. Mostrar senhas cadastradas")
+	fmt.Println("2. Criar nova senha")
 	fmt.Println("3. Deletar senha")
 	fmt.Println("4. Sair do programa")
 	fmt.Print("Qual é a sua escolha? ")
