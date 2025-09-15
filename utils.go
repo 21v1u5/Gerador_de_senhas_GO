@@ -10,7 +10,7 @@ func linha() {
 
 func titulo() {
 	linha()
-	fmt.Println("                 Gerador de senhas                 ")
+	fmt.Println("                 GERADOR DE SENHAS                 ")
 	linha()
 }
 
