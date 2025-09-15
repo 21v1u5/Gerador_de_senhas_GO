@@ -39,8 +39,5 @@ Um gerador de senhas simples feito em **Go**, com opções de criação, visuali
 
 🔧 Melhorias Futuras
 
- Tratamento de erros → (ex.: evitar crash ao digitar letras no menu).
+ Persistência de dados → salvar as senhas em arquivo local (txt ou json).
 
- Persistência de dados → salvar as senhas em arquivo local.
-
- Testes automatizados → garantir a qualidade do código.
